@@ -1,3 +1,29 @@
-.style {
-    font-family: 'Courier New', Courier, monospace;
+.header {
+
+}
+.contact {
+
+}
+.education {
+
+}
+.skill {
+
+}
+.footer {
+
+}
+.avatar {
+    border-radius: 50%;
+    width: 200px;
+}
+.fullname {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+.mssv {
+    font-weight: lighter;
+    font-family:'Courier New', Courier, monospace;
+    text-decoration: solid;
 }
