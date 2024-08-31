@@ -8,48 +8,184 @@
     <title>Vi Quốc Thuận</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet" />
 </head>
 
 <body>
     <div class="container">
-        <div class="header row">
-            <div class="col-9">
-                <h1 class="fullname">Vi Quốc Thuận</h1>
-                <h3 class="mssv">22110006</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, vel. Ipsam quae dolorum quos nisi
-                    quasi aliquam praesentium? Sapiente ad ducimus ipsam recusandae laudantium repellat nostrum
-                    accusantium consectetur maxime explicabo!</p>
-            </div>
-            <div class="col-3">
-                <img class="avatar" src="./images/22110006.jpg" alt="22110006">
-            </div>
-        </div>
-        <div class="contact row">
-            <div class="col">
-                <div class="d-grid gap-2">
-                    <div><i class="fas fa-arrows-alt-v fa-fw"></i> Icon 1</div>
-                    <button class="btn btn-seconary" type="button">Button</button>
+        <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+            <a class="navbar-brand" href="#"></a>
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link" href="#bio">Bio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#education">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+            </ul>
+        </nav>
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example"
+            tabindex="0">
+
+            <div class="header row" id="bio">
+                <div class="col-9">
+                    <h1 class="fullname">Vi Quốc Thuận</h1>
+                    <h3 class="mssv">22110006</h3>
+                    <p class="introduce">Vi Quoc Thuan (2ThuanCr) is currently a third-year student at Ho Chi Minh City University of
+                        Technology and Education (HCMUTE), majoring in Information Technology. Known for his passion for
+                        technology and programming, Thuan has been actively involved in various projects and activities
+                        related to his field of study. Thuan aspires to become a skilled software developer in the
+                        future.
+                    </p>
+                </div>
+                <div class="col-3">
+                    <img class="avatar" src="./images/22110006.jpg" alt="22110006">
                 </div>
             </div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-        </div>
-        <div class="education">
+            <div class="d-flex justify-content-center">
+                <hr width="100%" size="3px" color="black" />
+            </div>
+            <div class="contact row" id="contact">
+                <div class="col">
+                    <a class="d-flex align-items-center flex-column" href="tel:0364886745">
+                        <i class="fa fa-phone fa-2x"></i>
+                        <p>+864 886 745</p>
+                    </a>
+                </div>
+                <div class="col">
+                    <a class="d-flex align-items-center flex-column" href="mailto:22110006@student.hcmute.edu.vn">
+                        <i class="fas fa-envelope fa-2x"></i>
+                        <p>22110006@student.hcmute.edu.vn</p>
+                    </a>
+                </div>
+                <div class="col">
+                    <a class="d-flex align-items-center flex-column" href="#">
+                        <i class="fa fa-home fa-2x"></i>
+                        <p>Bom Bo, Bù Đăng, Bình Phước</p>
+                    </a>
+                </div>
+                <div class="col">
+                    <a class="d-flex align-items-center flex-column" href="https://github.com/2thuancr">
+                        <i class="fa fa-github fa-2x"></i>
+                        <p>2ThuanCr</p>
+                    </a>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <hr width="100%" size="3px" color="black" />
+            </div>
+            <div class="education" id="education">
+                <h2 class="section_header">
+                    <i class="fa fa-graduation-cap"></i>
+                    <span>Education</span>
+                </h2>
+                <div>
+                    <div class="row">
+                        <div class="col-3">
+                            <p>2009-2017</p>
+                        </div>
+                        <div class="col-9">
+                            <p>Tran Văn On School</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                            <p>2018-2021</p>
+                        </div>
+                        <div class="col-9">
+                            <p>Luong The Vinh HighSchool</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                            <p>2022-2024</p>
+                        </div>
+                        <div class="col-9">
+                            <p>Ho Chi Minh City University Of Technology And Education</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <hr width="100%" size="3px" color="black" />
+            </div>
+            <div class="skills" id="skills">
+                <h2 class="section_header">
+                    <i class="fa fa-code"></i>
+                    <span>Skills</span>
+                </h2>
+                <div>
+                    <div class="row">
+                        <div class="col d-flex align-items-center flex-column">
+                            <img width="48" height="48" src="https://img.icons8.com/fluency/48/c-plus-plus-logo.png"
+                                alt="c-plus-plus-logo" />
+                            <p>
+                                <span class="badge rounded-pill bg-info text-dark">C++</span>
+                            </p>
+                        </div>
+                        <div class="col d-flex align-items-center flex-column">
+                            <img width="48" height="48" src="https://img.icons8.com/color/48/c-sharp-logo.png"
+                                alt="c-sharp-logo" />
+                            <p>
+                                <span class="badge rounded-pill bg-info text-dark">C#</span>
+                            </p>
+                        </div>
+                        <div class="col d-flex align-items-center flex-column">
+                            <img width="48" height="48" src="https://img.icons8.com/color/48/python--v1.png"
+                                alt="python--v1" />
+                            <p>
+                                <span class="badge rounded-pill bg-info text-dark">Python</span>
+                            </p>
+                        </div>
+                        <div class="col d-flex align-items-center flex-column">
+                            <img width="48" height="48" src="https://img.icons8.com/color/48/microsoft-sql-server.png"
+                                alt="microsoft-sql-server" />
+                            <p>
+                                <span class="badge rounded-pill bg-info text-dark">SQL Server</span>
+                            </p>
+                        </div>
+                        <div class="col d-flex align-items-center flex-column">
+                            <img width="48" height="48" src="https://img.icons8.com/color/48/html-5--v1.png"
+                                alt="html-5--v1" />
+                            <p>
+                                <span class="badge rounded-pill bg-info text-dark">Html</span>
+                            </p>
+                        </div>
+                        <div class="col d-flex align-items-center flex-column">
+                            <img width="48" height="48" src="https://img.icons8.com/fluency/48/css3.png" alt="css3" />
+                            <p>
+                                <span class="badge rounded-pill bg-info text-dark">Css</span>
+                            </p>
+                        </div>
+                        <div class="col d-flex align-items-center flex-column">
+                            <img width="48" height="48" src="https://img.icons8.com/color/48/javascript--v1.png"
+                                alt="javascript--v1" />
+                            <p>
+                                <span class="badge rounded-pill bg-info text-dark">JavaScript</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <hr width="100%" size="3px" color="black" />
+            </div>
+            <div class="footer">
 
-        </div>
-        <div class="skill">
-
-        </div>
-        <div class="footer">
-
+            </div>
         </div>
     </div>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/28c0af3030.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
