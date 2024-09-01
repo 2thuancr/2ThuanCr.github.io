@@ -12,32 +12,39 @@
 </head>
 
 <body>
-    <div class="container">
-        <nav id="top" class="navbar navbar-light bg-light px-3">
-            <a class="navbar-brand" href="#"></a>
-            <ul class="nav nav-pills">
-                <li class="nav-item">
-                    <a class="nav-link" href="#bio">Bio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#education">Education</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#skills">Skills</a>
-                </li>
-            </ul>
+    <div class="">
+        <nav id="top"
+            class="navbar navbar-light bg-light px-3 sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"></a>
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#bio">Bio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#award">Award</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
-        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example"
+        <div data-bs-spy="scroll" data-bs-target="#top" data-bs-offset="0" class="container-fluid"
             tabindex="0">
 
             <div class="header row" id="bio">
                 <div class="col-9">
                     <h1 class="fullname">Vi Quốc Thuận</h1>
                     <h3 class="mssv">22110006</h3>
-                    <p class="introduce">Vi Quoc Thuan (2ThuanCr) is currently a third-year student at Ho Chi Minh City University of
+                    <p class="introduce">Vi Quoc Thuan (2ThuanCr) is currently a third-year student at Ho Chi Minh City
+                        University of
                         Technology and Education (HCMUTE), majoring in Information Technology. Known for his passion for
                         technology and programming, Thuan has been actively involved in various projects and activities
                         related to his field of study. Thuan aspires to become a skilled software developer in the
@@ -55,7 +62,7 @@
                 <div class="col">
                     <a class="d-flex align-items-center flex-column" href="tel:0364886745">
                         <i class="fa fa-phone fa-2x"></i>
-                        <p>+864 886 745</p>
+                        <p>+84 364 886 745</p>
                     </a>
                 </div>
                 <div class="col">
@@ -80,6 +87,7 @@
             <div class="d-flex justify-content-center">
                 <hr width="100%" size="5px" color="black" />
             </div>
+            <!-- EDUCATION -->
             <div class="education" id="education">
                 <h2 class="section_header">
                     <i class="fa fa-graduation-cap"></i>
@@ -87,7 +95,7 @@
                 </h2>
                 <div>
                     <div class="row">
-                        <div class="col-3">
+                        <div class="col-3 education_year">
                             <p>2009-2017</p>
                         </div>
                         <div class="col-9">
@@ -95,7 +103,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-3">
+                        <div class="col-3 education_year">
                             <p>2018-2021</p>
                         </div>
                         <div class="col-9">
@@ -103,8 +111,8 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-3">
-                            <p>2022-2024</p>
+                        <div class="col-3 education_year">
+                            <p>2022-present</p>
                         </div>
                         <div class="col-9">
                             <p>Ho Chi Minh City University Of Technology And Education</p>
@@ -115,6 +123,59 @@
             <div class="d-flex justify-content-center">
                 <hr width="100%" size="5px" color="black" />
             </div>
+            <!-- AWARD -->
+            <div class="award" id="award">
+                <h2 class="section_header">
+                    <i class="fa fa-trophy"></i>
+                    <span>Award</span>
+                </h2>
+                <div>
+                    <div class="row">
+                        <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active" data-bs-interval="3000">
+                                <img src="./images/donca.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>HỘI DIỄN VĂN NGHỆ HCMUTE 2023</h5>
+                                  <p>-- Giải nhất đơn ca Khoa Công nghệ Thông tin --</p>
+                                </div>
+                              </div>
+                              <div class="carousel-item" data-bs-interval="3000">
+                                <img src="./images/thsvtq.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>TIẾNG HÁT SINH VIÊN TOÀN QUỐC KHU VỰC MIỀN NAM 2023</h5>
+                                  <p>-- Giải ba tốp ca Trường Đại học Sư phạm Kỹ thuật TP HCM --</p>
+                                </div>
+                              </div>
+                              <div class="carousel-item" data-bs-interval="3000">
+                                <img src="./images/talent.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>CUỘC THI TIẾNG HÁT TALENT 2023</h5>
+                                  <p>-- Giải khuyến khích đơn ca --</p>
+                                </div>
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <hr width="100%" size="5px" color="black" />
+            </div>
+            <!-- SKILLS -->
             <div class="skills" id="skills">
                 <h2 class="section_header">
                     <i class="fa fa-code"></i>
@@ -176,11 +237,31 @@
             <div class="d-flex justify-content-center">
                 <hr width="100%" size="5px" color="black" />
             </div>
-            <div class="footer">
-                    <div class="d-flex justify-content-between">
-                        <p>Copyright © 2024 2ThuanCr</p>
-                        <a href="#top">Back To Top</a>
+            <!-- FOOTER -->
+            <div class="footer mb-3">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center">
+                        <a href="https://www.tiktok.com/@2thuancr" target="_blank">
+                            <img width="48" height="48" src="https://img.icons8.com/color/48/tiktok--v1.png"
+                                alt="tiktok--v1" />
+                        </a>
+                        <a href="https://www.facebook.com/viquoc.thuan/" target="_blank">
+                            <img width="48" height="48" src="https://img.icons8.com/fluency/48/facebook-new.png"
+                                alt="facebook-new" />
+                        </a>
+                        <a href="https://www.instagram.com/2thuancr/" target="_blank">
+                            <img width="48" height="48" src="https://img.icons8.com/fluency/48/instagram-new.png"
+                                alt="instagram-new" />
+                        </a>
                     </div>
+                </div>
+
+                <div class="d-flex justify-content-center">
+                    <p>- Copyright © 2024 2ThuanCr -</p>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <a type="button " class="btn btn-outline-primary" href="#top">Back To Top</a>
+                </div>
             </div>
         </div>
     </div>
